@@ -11,7 +11,7 @@ const Login = () => {
     event.preventDefault();
 
     try {
-      const req = await axios.post("https://secegitrepocys.onrender.com/login", {
+      const req = await axios.post("https://mern2025-1-zeq9.onrender.com/login", {
         email,
         password,
       });
@@ -58,3 +58,4 @@ const Login = () => {
 };
 
 export default Login;
+
